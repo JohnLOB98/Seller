@@ -127,13 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Events.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shapes.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConsoleUtility.h" />
-    <ClInclude Include="Events.h" />
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="ConsoleApplication.h" />
     <ClInclude Include="Button.h" />
+    <ClInclude Include="Element.h" />
     <ClInclude Include="Shapes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
